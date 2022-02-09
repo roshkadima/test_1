@@ -1,17 +1,17 @@
-#exercise 1
+x = input('x=')
+x1 = input('x1=')
+y = set(x)
+y1 = set(x1)
 
-x = input('x =')
-print(x.count('b'))
+print(y & y1)
 
-print('================================')
-#exercise 2
+print('='*10)
 
+a = [i for i in range(3,100,3)]
 
+x = [i for i in range(5,100,5)]
 
+x1 = set(x)
+a1 = set(a)
 
-#exercise 3
-print('================================')
-
-print(sum(map(ord, input())))
-
-
+print(a1 & x1)
